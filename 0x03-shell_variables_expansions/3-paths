@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l `which PATH' | wc -l
+ls -l `which PATH` | wc -l
