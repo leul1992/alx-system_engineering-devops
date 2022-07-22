@@ -5,7 +5,7 @@ i=0
 while [ $i -ne 10 ];
 do
 	if [ $i -eq 8 ];then
-		echo "hi";
+		echo "Hi";
 	else
 		echo "Best School"
 	fi
