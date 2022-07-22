@@ -2,7 +2,7 @@
 #on the 9th iteration print hi too
 
 i=0
-while [ $i -lt 10 ];
+while [ $i -ne 10 ];
 do
 	if [ $i -eq 8 ];then
 		echo "hi";
