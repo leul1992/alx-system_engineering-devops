@@ -2,9 +2,9 @@
 #on the 9th iteration print hi too
 
 i=0
-while [ $i -ne 10 ];
+while [ $i -ne 11 ];
 do
-	if [ $i -eq 8 ];then
+	if [ $i -eq 9 ];then
 		echo "Hi";
 	else
 		echo "Best School"
