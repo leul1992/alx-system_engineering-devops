@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#print word ten times using while loop
+
 i=0
 while((i<10));
 do
