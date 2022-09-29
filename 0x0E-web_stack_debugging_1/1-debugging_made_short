@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # configure a server
 apt-get install -y nginx
-sed -i -e "s/8080/80/g" -e "s/ ipv6only=on//g" /etc/nginx/sites-enabled/default
+sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 pkill -o nginx
