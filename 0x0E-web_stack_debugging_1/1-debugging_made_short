@@ -2,4 +2,4 @@
 # configure a server
 apt-get install -y nginx
 sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
-pkill -o nginx
+sudo systemctl stop nginx
