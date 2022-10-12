@@ -1,3 +1,4 @@
+# creating a custom HTTP header response
 exec { 'install_nginx':
     command => 'sudo apt-get -y update;sudo apt-get -y install nginx'
 }
