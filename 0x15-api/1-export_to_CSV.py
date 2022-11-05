@@ -10,7 +10,7 @@ if __name__ == '__main__':
     id_no = argv[1]
     todo = requests.get(url + 'todos?userId={}'.format(id_no)).json()
     user = requests.get(url + 'users/{}'.format(id_no)).json()
-    with open(str(id_no) + '.csv', 'w', newline='') as fi:
+    with open(id_no + '.csv', 'w', newline='') as fi:
         writer = csv.writer(fi, quoting=csv.QUOTE_ALL)
         for to in todo:
             writer.writerow([user.get('id'), user.get('username'),
