@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """script accepts integer and display employ standard output"""
 import requests
 from sys import argv
